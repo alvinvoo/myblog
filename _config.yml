@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alvin Voo
+title: Alvin Voo's blog
 email: alvin.voo@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Going full meta on life.
@@ -28,8 +28,8 @@ github_username:  alvinvoo
 
 # Build settings
 theme: jekyll-theme-so-simple
-plugins:
-  - jekyll-feed
+read_time: true
+words_per_minute: 200
 
 # Exclude from processing.
 # The following items will not be processed, by default.
